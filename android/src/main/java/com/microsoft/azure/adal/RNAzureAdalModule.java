@@ -96,8 +96,7 @@ public class RNAzureAdalModule extends ReactContextBaseJavaModule {
             final Boolean forceLogin,
             final Promise promise
     ) {
-        Log.w("configure", resourceUrl);
-        if (currentConfiguration != null) {
+        if (resourceUrl != null && currentConfiguration != null) {
             final Activity activity = getCurrentActivity();
             activity.runOnUiThread(new Runnable() {
                 @Override
