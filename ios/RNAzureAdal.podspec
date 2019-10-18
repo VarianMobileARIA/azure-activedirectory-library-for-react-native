@@ -11,6 +11,7 @@ Pod::Spec.new do |s|
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.author             = { "author" => "durgaprasad.budhwani@gmail.com" }
   s.platform     = :ios, "7.0"
+  s.homepage     = "https://github.com/Durgaprasad-Budhwani/azure-activedirectory-library-for-react-native#readme"
   s.source       = { :git => "https://github.com/author/RNAzureAdal.git", :tag => "master" }
   s.source_files  = "RNAzureAdal/**/*.{h,m}"
   s.requires_arc = true
