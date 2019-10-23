@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.homepage     = "https://github.com/Durgaprasad-Budhwani/azure-activedirectory-library-for-react-native#readme"
   s.source       = { :git => "https://github.com/author/RNAzureAdal.git", :tag => "master" }
-  s.source_files  = "RNAzureAdal/**/*.{h,m}"
+  s.source_files  = "ios/RNAzureAdal/**/*.{h,m}"
   s.requires_arc = true
 
 
